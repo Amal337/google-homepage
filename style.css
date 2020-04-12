@@ -1,0 +1,95 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+main{
+    min-height: 100%;
+    /* margin-bottom: -50px; */
+}
+header{
+    width: 100%;
+    height: 200px;
+}
+
+.list0{
+    float: right;
+}
+
+.list0 li{
+    display: inline;
+    padding: 10px;
+    
+}
+
+li a{
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: rgb(71, 67, 67);
+}
+
+div {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 100%; */
+    
+}
+
+input{
+    width: 350px;
+    height: 35px;
+    margin: auto;
+    border: 1px solid rgba(216, 205, 205, 0.54);
+    border-radius: 30px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ /* it does not work, later must revise why not */
+input::after {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+input:hover::after {
+    opacity: 1;
+    
+}
+
+button{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 20px 10px;
+    border: none;
+    border-radius: 2px;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    color: rgb(71, 67, 67);
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: #f2f2f2;
+   
+    
+}
+
+.list1{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    display: inline;
+    padding: 20px;
+
+}
